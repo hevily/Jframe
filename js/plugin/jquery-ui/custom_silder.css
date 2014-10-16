@@ -1,0 +1,14 @@
+
+.ui-slider {position: relative; text-align: left;}
+.ui-slider-horizontal {height: .8em;}
+.ui-slider-handle,.ui-slider {border-radius: 4px;}
+
+.ui-slider-handle{}
+
+.ui-slider-horizontal {border: 1px solid #aaaaaa;color: #222222;}
+
+.ui-slider .ui-slider-handle {position: absolute;z-index: 2;width: 1.2em;border: 1px solid #d3d3d3;font-weight: normal;color: #555555; background: #E6E6E6;height: 1.2em; cursor: pointer;}
+.ui-slider-horizontal .ui-slider-handle {top: -.3em;margin-left: -.6em;}
+
+.ui-sortable-helper{border-color: #ccc;box-shadow: 0 0 5px rgba(0,0,0,0.25);}
+.ui-sortable-placeholder{border: 2px dashed #ccc}

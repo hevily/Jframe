@@ -1,0 +1,61 @@
+/*=====================================
+  日历弹出层
+  =====================================*/
+ /*-- 大局 --*/
+#ui-datepicker-div {width: 245px; background: #fff; border: 1px solid #ccc; box-shadow: 0px 0px 2px -1px #333;display: none; z-index:99999!important}
+.ui-datepicker-header { background: #4084ee; padding: 15px 10px;}
+.ui-time-input {padding: 8px 38px 8px 0px; text-indent:5px; vertical-align: middle;border: 1px solid #CCC; }
+input.hasDatepicker {vertical-align:middle;} 
+.ui-datepicker-trigger {cursor:pointer; margin-left:-26px; vertical-align:middle; position: relative;}
+.isie8 .ui-time-input{height:16px;}
+.del_date{width:8px;height:8px; display:inline-block; background:url(/images/clip_icons.png) no-repeat -41px -206px; left: -38px; position: relative; top:2px; cursor:pointer; display:none;}
+
+/*-- 头部 --*/
+.ui-datepicker-prev {position: absolute; left: 10px; text-indent: -100px; overflow: hidden; cursor: pointer;}
+.ui-datepicker-next {position: absolute; right: 10px; text-indent: -100px; overflow: hidden; cursor: pointer;}
+.ui-datepicker-title {text-align: center; color: #fff; font-weight: bold;}
+.ui-icon  {display: block; width: 7px; height: 12px; background: url(/images/datepicker/arrow_icon.png) no-repeat;}
+.ui-datepicker-prev .ui-icon {  background-position: 0px -21px; }
+.ui-datepicker-next .ui-icon  { background-position: 0px -38px; }
+.ui-datepicker-prev.ui-state-disabled,
+.ui-datepicker-next.ui-state-disabled{display:none;}
+
+/*-- 删除icon --*/
+.ui_datepicker_clear {display: inline-block; visibility: hidden; width: 10px; height: 10px; background: url(/images/clip_icons.png) no-repeat; background-position: -21px -206px; margin-left: -37px; vertical-align: middle;}
+.ui_datepicker_wrap {display: inline-block; position: relative;}
+/*-- 日期列表 --*/
+.ui-datepicker-calendar {width: 100%; margin-bottom: 10px;}
+
+.ui-datepicker-calendar thead {background: #4c4c4c;}
+.ui-datepicker-calendar thead th {font-weight: bold; color: #fff; padding: 5px 0px;}
+.ui-datepicker-calendar thead th:first-child,.ui-datepicker-calendar thead th:last-child {background: #5a5a5a;}
+.ui-datepicker-calendar td {text-align: center; padding: 5px; color: #8a8989; font-weight: bold; font-size: 14px;}
+.ui-datepicker-calendar td a {text-decoration: none; display: block; height: 20px; line-height: 20px;}
+.ui-datepicker-calendar td.ui-datepicker-today a{ background: #d7e7fe;}
+.ui-datepicker-calendar td.ui-datepicker-today a:hover {background: #d7e7fe; }
+.ui-datepicker-calendar td a:hover {background: #ccc;}
+.ui-datepicker-calendar td.ui-datepicker-current-day a{background: #4084ee;color: #fff;}
+.ui-datepicker-calendar td.ui-datepicker-current-day a:hover {background: #4084ee;}
+.ui-datepicker-calendar td.ui-datepicker-unselectable span {color: #d9d8d8;}
+
+
+
+/*-- 时分秒 --*/
+#ui-timepicker-div {background: #eae9e9; padding: 3px 10px; color: #8a8989; margin-bottom: 15px}
+#ui-timepicker-div .ui_tpicker_box {position: relative;display: inline-block;width: 50px; height:24px;margin-left: 4px; background: #fff;}
+#ui-timepicker-div .timeinput{border: none;background: none;font-size: 12px; height: 24px; line-height: 24px; margin-left: 10px; color: #8a8989;}
+#ui-timepicker-div .down_icon ,#ui-timepicker-div .up_icon{display: block;background: url(/images/datepicker/arrow_icon.png) center 0px no-repeat;width: 8px;height: 8px;}
+#ui-timepicker-div .up_icon {background-position: 0px -10px;}
+#ui-timepicker-div .button_wrap{display: block;width: 19px;height: 13px; padding-left: 5px; padding-top: 2px; width: 13px; height: 11px;}
+#ui-timepicker-div .button_wrap:hover{background: #d7e7fe;}
+#ui-timepicker-div .ui_tpicker_change_box {position: absolute;top:0px;right: 0px;height: 100%;}
+#ui-timepicker-div .ui-datepicker-trigger{cursor: pointer;margin-left: -28px;margin-bottom: -9px;height: 26px;}
+#ui-timepicker-div .ui-time-input {line-height: 14px;padding: 7px;width: 156px;}
+.ui-datepicker-buttonpane {zoom:1; height: 25px; padding: 0px 10px 15px 10px;}
+.ui-datepicker-buttonpane:after {content:"."; display:block; height:0; font-size:0; clear:both; visibility:hidden;}
+
+.ui-datepicker-current {float: left;}
+.ui-datepicker-close {float: right;}
+.ui-datepicker-current,.ui-datepicker-close {display:inline-block; width: 45px; vertical-align:middle; height:23px; line-height: 20px; border:none; color:#FFF; text-align:center; }
+.ui-datepicker-buttonpane button {background: url(/images/datepicker/btn_bg.png) no-repeat;}
+
